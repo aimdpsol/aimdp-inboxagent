@@ -2,15 +2,13 @@ import streamlit as st
 import pandas as pd
 import re
 
-st.set_page_config(page_title="AIMDP InboxAgent - نور القرآن", layout="wide", page_icon="📧")
+st.set_page_config(page_title="AIMDP InboxAgent - MDP Solutions", layout="wide", page_icon="📧")
 
 # --- LOGO SECTION ---
 # Upload your image to GitHub as logo.jpg
-st.image("logo.jpg", use_container_width=True) 
-st.markdown("<h3 style='text-align:center; color:#4B2BB7'>نور القرآن - صباحكم معطر بذكر الله</h3>", unsafe_allow_html=True)
 
 st.markdown("# 📧 AIMDP Solutions - InboxAgent")
-st.markdown("### AI Triages Your Inbox in Seconds • Powered by نور القرآن")
+st.markdown("### AI Triages Your Inbox in Seconds • Powered by AIMDP Solution")
 
 # ... rest of your InboxAgent code from before ...
 SAMPLE_EMAILS = [
